@@ -27,3 +27,7 @@
  .sub-title-color{
      color:#240881;
  }
+
+ .slider .indicators .indicator-item.active{
+     background-color:#a82121 !important;
+ }
