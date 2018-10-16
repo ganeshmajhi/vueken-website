@@ -1,0 +1,22 @@
+
+
+.section-follow .fa-4x{
+    margin:5px 10px;
+    transition: color 1s;
+    color:#fff;
+}
+.section-follow .fa-4x:hover{
+    color:#4267b2;
+   
+
+
+}
+.back-color{
+   background-image: linear-gradient(to right, white , #fbe4e4);
+}
+.background-maroon {
+    background-color: #a82121;
+}
+.meroon-color{
+    color:#a82121;
+}
