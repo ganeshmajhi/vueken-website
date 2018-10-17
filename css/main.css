@@ -14,7 +14,7 @@
 
 }
 .back-color{
-   background-image: linear-gradient(to right, white , #fbe4e4);
+   background-image: linear-gradient(to right, white , #82b1ff);
 }
 .background-maroon {
     background-color: #a82121;
@@ -22,9 +22,6 @@
 .meroon-color{
     color:#a82121;
 }
-.back-opp{
-    background-image: linear-gradient(to right,  #fbe4e4, white );
- }
 
  .sub-title-color{
      color:#240881;
@@ -32,4 +29,11 @@
 
  .slider .indicators .indicator-item.active{
      background-color:#a82121 !important;
+ }
+
+ .card-hov{
+     transition:background-color 1s;
+ }
+ .card-hov:hover{
+     background-color:#82b1ff !important;
  }
