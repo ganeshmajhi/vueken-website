@@ -310,6 +310,11 @@
 
       <!--JavaScript at end of body for optimized loading-->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <!--jquary cdn-->
+      <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
    
      <script>
         //SideNav
@@ -329,6 +334,15 @@
 
         const ss = document.querySelectorAll('.scrollspy');
         M.ScrollSpy.init(ss,{});
+
+        // navbar-side to the right
+        $('.button-collapse').sideNav({
+      menuWidth: 300,
+      closeOnClick: true,
+      edge: 'right', // <--- CHECK THIS OUT
+    }
+  );
+  $('.collapsible').collapsible();
 
       </script>
     </body>

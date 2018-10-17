@@ -37,3 +37,10 @@
  .card-hov:hover{
      background-color:#82b1ff !important;
  }
+ .sidenav-trigger{
+     float:right !important;
+ }
+ .sidenav {
+     float:right !important;
+    -moz-float-edge:right !important;
+ }
