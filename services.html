@@ -25,7 +25,7 @@
                     <div class="container">
                         <div class="nav-wrapper">
                           <a href="#home" class="brand-logo"><img  src="img/vueken-4.png"></a>
-                          <a href="#" data-target="mobile-demo" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
+                          <a href="#" data-target="mobile-demo" class="sidenav-trigger black-text right"><i class="material-icons">menu</i></a>
                           <ul class="right hide-on-med-and-down">
                             <li><a href="index.html" class="black-text"><b>Home</b></a></li>
                             <li><a href="aboutus.html" class="black-text" ><b>About Us</b></a></li>
@@ -215,7 +215,7 @@
           <script>
             //SideNav
             const sideNav = document.querySelector('.sidenav');
-            M.Sidenav.init(sideNav, {});
+            M.Sidenav.init(sideNav, {edge:'right'});
     
     
             // Scroll Spy
