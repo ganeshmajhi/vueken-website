@@ -37,6 +37,16 @@
  .card-hov:hover{
      background-color:#82b1ff !important;
  }
+
+ .text-about{
+     font-size:18px;
+ }
+ .text-howwedo{
+     font-size:16px;
+ }
+ .text-howwepoint{
+     font-size:16px;
+ }
  
 
  
